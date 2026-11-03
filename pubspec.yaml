@@ -1,0 +1,28 @@
+name: injaz
+description: Offline-first daily task planner.
+publish_to: "none"
+version: 1.0.2+3
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  shared_preferences: 2.5.3
+  flutter_local_notifications: 19.5.0
+  timezone: 0.10.1
+  flutter_timezone: 5.1.1
+
+  # SQLite database
+  sqflite: ^2.4.5
+  path: ^1.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: 6.0.0
+
+flutter:
+  uses-material-design: true
